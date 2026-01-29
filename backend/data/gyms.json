@@ -1,0 +1,295 @@
+[
+  {
+    "id": 1,
+    "name": "Gracie Barra West",
+    "city": "Los Angeles",
+    "postcode": "90025",
+    "coordinates": {
+      "lat": 34.0456,
+      "long": -118.4560
+    },
+    "description": "Premium Brazilian Jiu-Jitsu training in West LA. Part of the world-renowned Gracie Barra network.",
+    "instructor": "Prof. Rodrigo Freitas",
+    "tags": [
+      "Gi",
+      "No-Gi",
+      "Kids",
+      "Beginner Friendly"
+    ],
+    "schedule": [
+      {
+        "day": "Monday",
+        "times": [
+          "7:00 AM",
+          "12:00 PM",
+          "6:30 PM"
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "times": [
+          "7:00 AM",
+          "12:00 PM",
+          "6:30 PM"
+        ]
+      },
+      {
+        "day": "Friday",
+        "times": [
+          "7:00 AM",
+          "12:00 PM",
+          "6:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Marcelo Garcia Academy",
+    "city": "New York",
+    "postcode": "10001",
+    "coordinates": {
+      "lat": 40.7505,
+      "long": -73.9934
+    },
+    "description": "Train with the 5-time World Champion Marcelo Garcia. Focused on technical excellence and a positive environment.",
+    "instructor": "Marcelo Garcia",
+    "tags": [
+      "Gi",
+      "No-Gi",
+      "World Class"
+    ],
+    "schedule": [
+      {
+        "day": "Monday - Friday",
+        "times": [
+          "11:00 AM",
+          "1:00 PM",
+          "5:30 PM",
+          "7:00 PM"
+        ]
+      },
+      {
+        "day": "Saturday",
+        "times": [
+          "12:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Cicero Costha",
+    "city": "São Paulo",
+    "postcode": "04001-001",
+    "coordinates": {
+      "lat": -23.5855,
+      "long": -46.6663
+    },
+    "description": "Original home of many world champions. Hard training with a social focus.",
+    "instructor": "Mestre Cicero Costha",
+    "tags": [
+      "Gi",
+      "Competition Team",
+      "Social Project"
+    ],
+    "schedule": [
+      {
+        "day": "Daily",
+        "times": [
+          "10:00 AM",
+          "3:00 PM",
+          "8:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Art of Jiu Jitsu",
+    "city": "Costa Mesa",
+    "postcode": "92627",
+    "coordinates": {
+      "lat": 33.6412,
+      "long": -117.9188
+    },
+    "description": "Founded by the Mendes Brothers. Known for its aesthetic design and modern technical approach.",
+    "instructor": "Gui & Rafa Mendes",
+    "tags": [
+      "Gi",
+      "Kids",
+      "Modern BJJ",
+      "World Class"
+    ],
+    "schedule": [
+      {
+        "day": "Mon-Fri",
+        "times": [
+          "6:00 AM",
+          "11:30 AM",
+          "6:00 PM"
+        ]
+      },
+      {
+        "day": "Sat",
+        "times": [
+          "10:30 AM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Renzo Gracie Academy",
+    "city": "New York",
+    "postcode": "10001",
+    "coordinates": {
+      "lat": 40.7538,
+      "long": -73.9950
+    },
+    "description": "Legendary academy in the heart of Manhattan. Home of the 'Blue Basement'.",
+    "instructor": "Renzo Gracie / John Danaher",
+    "tags": [
+      "Gi",
+      "No-Gi",
+      "Leglocks",
+      "Legendary"
+    ],
+    "schedule": [
+      {
+        "day": "Always Open",
+        "times": [
+          "24/7 (Almost)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "10th Planet HQ",
+    "city": "Los Angeles",
+    "postcode": "90013",
+    "coordinates": {
+      "lat": 34.0475,
+      "long": -118.2396
+    },
+    "description": "The home of the Rubber Guard and EBI. Pure No-Gi innovation.",
+    "instructor": "Eddie Bravo",
+    "tags": [
+      "No-Gi",
+      "Rubber Guard",
+      "Innovative"
+    ],
+    "schedule": [
+      {
+        "day": "Mon-Fri",
+        "times": [
+          "12:00 PM",
+          "7:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Gracie Barra Eindhoven",
+    "city": "Eindhoven",
+    "postcode": "5611",
+    "coordinates": {
+      "lat": 51.4416,
+      "long": 5.4697
+    },
+    "description": "The premier BJJ school in the south of the Netherlands. Focused on the GB 3.0 curriculum.",
+    "instructor": "Prof. Jordy Peute",
+    "tags": [
+      "Gi",
+      "No-Gi",
+      "Europe"
+    ],
+    "schedule": [
+      {
+        "day": "Tue/Thu",
+        "times": [
+          "19:30 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Checkmat HQ",
+    "city": "Signal Hill",
+    "postcode": "90755",
+    "coordinates": {
+      "lat": 33.8056,
+      "long": -118.1691
+    },
+    "description": "Leadership under Leo Vieira. Dynamic and powerful Jiu-Jitsu.",
+    "instructor": "Leo Vieira",
+    "tags": [
+      "Gi",
+      "Checkmat",
+      "Competition"
+    ],
+    "schedule": [
+      {
+        "day": "Daily",
+        "times": [
+          "11:00 AM",
+          "6:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Unity Jiu Jitsu",
+    "city": "New York",
+    "postcode": "10023",
+    "coordinates": {
+      "lat": 40.7769,
+      "long": -73.9840
+    },
+    "description": "No politics, just Jiu-Jitsu. Home of some of the hardest training in NYC.",
+    "instructor": "Murilo Santana",
+    "tags": [
+      "Gi",
+      "Competition Focus"
+    ],
+    "schedule": [
+      {
+        "day": "Mon-Fri",
+        "times": [
+          "10:00 AM",
+          "6:30 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Fight Sports Miami",
+    "city": "Miami",
+    "postcode": "33127",
+    "coordinates": {
+      "lat": 25.8015,
+      "long": -80.1995
+    },
+    "description": "Train in the 'Cyborg' way. High energy and familial environment.",
+    "instructor": "Roberto 'Cyborg' Abreu",
+    "tags": [
+      "Gi",
+      "No-Gi",
+      "Cyborg Style"
+    ],
+    "schedule": [
+      {
+        "day": "Daily",
+        "times": [
+          "12:00 PM",
+          "6:00 PM"
+        ]
+      }
+    ]
+  }
+]

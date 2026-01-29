@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+#root {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.app-container {
+  padding: 4rem 2rem;
+  font-family: 'Outfit', sans-serif;
+  color: #ffffff;
+}
+
+.hero-badge {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border: 1px solid rgba(255, 77, 77, 0.3);
+  border-radius: 99px;
+  color: #ff4d4d;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  background: rgba(255, 77, 77, 0.05);
+}
+
+.hero-title {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+  color: #ffffff;
+}
+
+.hero-title span {
+  display: block;
+  color: #ff4d4d;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #999999;
+  max-width: 700px;
+  margin: 2rem auto 3rem;
+  line-height: 1.6;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background: #111111;
+  border: 1px solid #222222;
+  border-radius: 16px;
+  padding: 0.5rem;
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.search-group {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 0 1rem;
+  border-right: 1px solid #222222;
+}
+
+.search-group:last-of-type {
+  border-right: none;
+}
+
+.search-group input {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.search-group input:focus {
+  outline: none;
+}
+
+.search-group svg {
+  color: #666;
+  width: 20px;
+  height: 20px;
+}
+
+.search-button {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-left: 0.5rem;
+}
+
+.search-button:hover {
+  background: #ff3333;
+  transform: translateY(-1px);
+}
+
+.filter-toggles {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-tag {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.filter-tag:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.filter-tag.active {
+  background: #ff4d4d;
+  border-color: #ff4d4d;
+  color: white;
+  box-shadow: 0 4px 12px rgba(255, 77, 77, 0.3);
+}
+
+.popular-tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+.popular-tags a {
+  color: #999;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  cursor: pointer;
+}
+
+.popular-tags a:hover {
+  color: #fff;
+}
+
+.content-layout {
+  display: flex;
+  gap: 2rem;
+  margin-top: 5rem;
+  text-align: left;
+  min-height: 80vh;
+}
+
+.results-section {
+  flex: 1;
+  max-width: 60%;
+}
+
+.map-section {
+  flex: 1;
+  position: sticky;
+  top: 2rem;
+  height: calc(100vh - 4rem);
+}
+
+.map-wrapper {
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #222;
+}
+
+.gym-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.map-popup {
+  color: #000;
+}
+
+.map-popup h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.map-popup p {
+  margin: 0 0 0.5rem;
+  color: #666;
+}
+
+.popup-link {
+  color: #ff4d4d;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.loading,
+.results-count {
+  margin-top: 4rem;
+  color: #666;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.no-results {
+  margin-top: 5rem;
+  padding: 4rem;
+  background: #111111;
+  border: 1px dashed #333333;
+  border-radius: 16px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .search-container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .search-group {
+    border-right: none;
+    border-bottom: 1px solid #222222;
+    width: 100%;
+  }
+
+  .search-button {
+    width: 100%;
+    margin: 1rem 0 0;
+  }
+}
